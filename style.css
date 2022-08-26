@@ -1,0 +1,395 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image:linear-gradient(to right, #1e1d1e, #05010a);
+    padding: 0 !important;
+
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+    opacity: 0.7;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*------------------banner section--------------*/
+.hero
+{
+
+    background-image: url(fullmoon4.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 10%;
+    width: 100%;
+}
+.promo-title
+{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top:5px;
+    color: #fff;
+    text-align: center;
+}
+.hero
+{
+    color: #fff;
+}
+
+#img-container{
+    width: 100%;
+}
+
+#billboard{
+    width: 100%;
+}
+
+#buybtn
+{
+    border-width: 2.5px;
+    border-color: rgb(203, 203, 203);
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    text-align: center;
+    background-color: rgb(20, 6, 89);
+    align-items: center;
+    width: 100%;
+}
+
+#watchbtn
+{
+    border-width: 2.5px;
+    border-color: rgb(203, 203, 203);
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    text-align: center;
+    background-color: rgb(73, 9, 9);
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+.bottom-img
+{
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+}
+
+
+/*-----------About Us------------*/
+#aboutus
+{
+    background-image:linear-gradient(to right, #000000, #000000);
+    padding: 20 !important;
+}
+
+.aboutus1
+{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.aboutus1-details
+{
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.aboutus-img
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.aboutall
+{
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.aboutall1
+{
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*-----------CHARACTER TYPES------------*/
+
+#chrttypemain
+{
+    background-image:linear-gradient(to right, #000000, #000000);
+
+}
+.chrttype
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.king-img
+{
+    width: 80%;
+    margin-top: 60px;
+}
+#buyking
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    width: 80%;
+}
+
+.col-md-4
+{
+    text-align: center;
+}
+
+.sprhrs-img
+{
+    width: 80%;
+    margin-top: 60px;
+}
+#buyspr
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    width: 80%;
+}
+
+.ctzn-img
+{
+    width: 80%;
+    margin-top: 60px;
+}
+
+#buyctz
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    width: 80%;
+}
+
+
+/*-----------SPACE WAR------------*/
+
+.col-md-6
+{
+    text-align: center;
+}
+
+#space-introduction
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    width: 100%;
+}
+
+#spacewarmain
+{
+    background-image:linear-gradient(to right, #000000, #000000);
+    }
+.space
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.space-exmpletxt
+{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.space-war
+{
+    color: rgb(210, 210, 210);
+    font-size: 15px;
+    margin-top: 30px;
+}
+.example-txt
+{
+    color: rgb(210, 210, 210);
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+.example-img
+{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.space-exmpletxt
+{
+    color: rgb(210, 210, 210);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+}
+.space-exmpletxt1
+{
+    color: rgb(210, 210, 210);
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.space-exmpletxt2
+{
+    color: rgb(210, 210, 210);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.footer-img
+{
+    width: 100%;
+    margin-bottom: 0%;
+    align-items: baseline;
+}
+
+.askedtitle
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.askedquestion
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.askedanswer
+{
+    color: rgb(210, 210, 210);
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 2%;
+
+}
+
+
+
+/*-----------FOOTER------------*/
+#footer
+{
+    background: #ffffff;
+    padding: 10px;
+}
+#footer p
+{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+
+.social-icons img
+{
+    width :65px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+.footer-box
+{
+    padding:20px;
+
+}
+.allreserve img
+{
+    width :25px;
+}
+
+#disclaimer
+{
+    text-align: center;
+   
+
+}
